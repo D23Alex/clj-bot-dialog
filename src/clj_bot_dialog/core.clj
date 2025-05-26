@@ -12,4 +12,5 @@
                 "greet"       e/greet-dialog
                 "description" e/user-description-dialog}
                e/unknown-command-dialog
-               e/not-in-dialog-dialog))
+               e/not-in-dialog-dialog
+               {:send-pool-size 8}))
